@@ -28,7 +28,7 @@ export async function generateReadmeMarkdownFile({
 	const getImagePieceSrc = (
 		{ filepath, imgSrc, theme }: ImagePiece & { theme: 'light' | 'dark' },
 	) =>
-		`https://raw.githubusercontent.com/IrakliGvelesiani/IrakliGvelesiani/generator/generated/${
+		`https://raw.githubusercontent.com/IrakliGvelesiani/IrakliGvelesiani/main/generator/generated/${
 			imgSrc === undefined ?
 				path.basename(filepath) :
 				imgSrc.replace(
